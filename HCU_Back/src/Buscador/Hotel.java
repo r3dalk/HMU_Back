@@ -1,13 +1,13 @@
 package Buscador;
-import org.json.*;
+
 
 
 
 public class Hotel {
 	private String hotelName;
 	private double price;
-	public Hotel(String city,int nights, int rooms, String path) {
-		DataExt dato = new DataExt(path);
+	public Hotel(String city,int nights, int rooms, String pathHotelDB) {
+		DataExt dato = new DataExt(pathHotelDB);
 		try {
 			int posit= dato.busca(city);
 			this.hotelName= dato.hotelByInt(posit);
