@@ -45,3 +45,4 @@ Hotel Florence
 Venice 
 Hotel Venice
 34.89
+       

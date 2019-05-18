@@ -45,12 +45,12 @@ public class DataExt {
 		    
 		    return linea;
 		  } 
-	public int busca(String buscado) throws Exception {
+	public int busca(String buscado, int add) throws Exception {
 		
 		boolean found = false;
 		int num=0;
 		Stream<String> lines = Files.lines(Paths.get(ruta));
-				for(;num<this.lineas&&!found;num+=4) {
+				for(;num<this.lineas&&!found;num+=add) {
 				
 				if(lines.skip(num).findFirst().get().equals(buscado))
 					found = true;
@@ -68,6 +68,9 @@ public class DataExt {
 				String precio = lines.skip(num+1).findFirst().get();
 				return Double.parseDouble(precio);
 			}
+		}
+		public int getLine() {
+			return this.lineas;
 		}
 	}
 
