@@ -1,0 +1,47 @@
+Madrid
+Hotel Madrid NH
+49.99
+-
+Malaga
+Hotel Malaga 
+35.12
+-
+Valencia 
+Hotel Valencia
+35.45
+-
+Bourdeux
+Hotel Bourdeux
+39.34
+-
+Paris 
+Hotel Paris 
+55.23
+-
+Calais
+Hotel Calais
+35.56
+-
+Berlin
+Hotel Berlin 
+44.23
+-
+Munich 
+Hotel Munich
+40.34
+-
+Hamburgh 
+Hotel Hamburgh 
+35.14
+-
+Rome 
+Hotel Rome
+48.86
+-
+Florence
+Hotel Florence
+45.24
+-
+Venice 
+Hotel Venice
+34.89
