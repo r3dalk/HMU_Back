@@ -7,7 +7,8 @@ public class Train {
 	public Train(String cityFrom, String cityTo, int numPass, String pathTrainDB) {
 		DataExt dato = new DataExt(pathTrainDB);
 		try {
-			int posit= dato.busca(city);
+			boolean found = false;
+			for(int )
 			this.hotelName= dato.hotelByInt(posit);
 			this.price= dato.numByInt(posit)*nights*rooms;
 			

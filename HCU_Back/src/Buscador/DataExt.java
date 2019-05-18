@@ -49,9 +49,11 @@ public class DataExt {
 		
 		boolean found = false;
 		int num=0;
+		Stream<String> lines = Files.lines(Paths.get(ruta));
 				for(;num<this.lineas&&!found;num+=4) {
-				this.read().equals(buscado);
 				
+				if(lines.skip(num).findFirst().get().equals(buscado))
+					found = true;
 		}
 		return num;
 	}
